@@ -9,6 +9,7 @@ var addresses = []
 
 //endpoints
 app.get('/hello', (req,res)=>{
+    console.log('nigger')
     return res.status(200).json({data: "sieg ___!"})
 })
 
