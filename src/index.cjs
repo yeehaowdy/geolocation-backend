@@ -6,6 +6,9 @@ app.use(cors())
 app.use(express.json())
 
 //endpoints
+app.get('/hello', (req,res)=>{
+    return res.status(200).json({data: "sieg ___!"})
+})
 
 const port = 3333
 var actualPort = process.env.PORT || port
